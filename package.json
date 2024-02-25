@@ -1,0 +1,31 @@
+{
+  "name": "@casko/scale-distribution",
+  "version": "1.0.0",
+  "description": "Scale a distribution array such that its elements sum up to a specified total.",
+  "main": "index.js",
+  "files": ["index.js", "index.d.ts"],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scale",
+    "distribution"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallojoe/scale-distribution.git"
+  },
+  "author": "casper korsgaard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hallojoe/scale-distribution/issues"
+  },
+  "homepage": "https://github.com/hallojoe/scale-distribution#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
+  }
+}
